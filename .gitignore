@@ -1,5 +1,6 @@
 *.000
 *.bak
+*.bck
 kk_atmel_library_.zip
 $*
 *~
