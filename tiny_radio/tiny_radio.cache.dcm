@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0  Mon 07 Jan 2013 21:19:53 GMT
+#
+$CMP ATTINY84-P
+D ATTINY84, PDIP14, 8k Flash, 512B SRAM, 512B EEPROM, dW
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/dyn/resources/prod_documents/doc8006.pdf
+$ENDCMP
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_3X2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_4
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+#End Doc Library
