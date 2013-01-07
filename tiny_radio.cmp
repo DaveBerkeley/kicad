@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sun 06 Jan 2013 15:33:08 GMT
+
+BeginCmp
+TimeStamp = /50E8666D;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E98D34;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E997DC;
+Reference = IC1;
+ValeurCmp = ATTINY84-P;
+IdModule  = DIP-14__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E98E93;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E86539;
+Reference = P2;
+ValeurCmp = CONN_3X2;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E860B5;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E860AE;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E98AE0;
+Reference = U1;
+ValeurCmp = RFM12B;
+IdModule  = SMD-RFM12B;
+EndCmp
+
+EndListe
