@@ -1,22 +1,24 @@
-eeschema (2011-05-25)-stable  >> Creation date: Sun 06 Jan 2013 14:59:25 GMT
+eeschema (2011-05-25)-stable  >> Creation date: Thu 10 Jan 2013 19:59:38 GMT
 
 #Cmp ( order = Reference )
 | C1         C           
 | C2         C           
-| IC1        ATTINY84-M  
-| P1         CONN_1      
+| IC1        ATTINY84-P  
+| P1         CONN_4      
 | P2         CONN_3X2    
+| P3         CONN_2      
 | R1         R           
 | R2         R           
 | U1         RFM12B      
 #End Cmp
 
 #Cmp ( order = Value )
-| ATTINY84-M   IC1       
+| ATTINY84-P   IC1       
 | C            C1        
 | C            C2        
-| CONN_1       P1        
+| CONN_2       P3        
 | CONN_3X2     P2        
+| CONN_4       P1        
 | R            R1        
 | R            R2        
 | RFM12B       U1        

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Sun 06 Jan 2013 15:33:08 GMT
+Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Thu 10 Jan 2013 20:00:49 GMT
 
 BeginCmp
 TimeStamp = /50E8666D;
@@ -22,9 +22,9 @@ IdModule  = DIP-14__300;
 EndCmp
 
 BeginCmp
-TimeStamp = /50E98E93;
+TimeStamp = /50E9A727;
 Reference = P1;
-ValeurCmp = CONN_1;
+ValeurCmp = CONN_4;
 IdModule  = PINTST;
 EndCmp
 
@@ -33,6 +33,13 @@ TimeStamp = /50E86539;
 Reference = P2;
 ValeurCmp = CONN_3X2;
 IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /50E9A69C;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_5x1;
 EndCmp
 
 BeginCmp
