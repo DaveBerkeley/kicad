@@ -1,6 +1,6 @@
-update=Mon 07 Jan 2013 20:20:59 GMT
+update=Fri 25 Jan 2013 15:19:15 GMT
 version=1
-last_client=eeschema
+last_client=cvpcb
 [general]
 version=1
 [pcbnew]
@@ -32,12 +32,7 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=SMD-RFM12B
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibDir=/usr/share/kicad/library;../lib
 [eeschema]
 version=1
 LibDir=
@@ -105,3 +100,8 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=rfm12b
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
