@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Fri 29 May 2015 15:24:06 BST
+
+BeginCmp
+TimeStamp = /55686C9F;
+Reference = ??1;
+ValeurCmp = ANDS-2610;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5568675B;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5568676A;
+Reference = C2;
+ValeurCmp = CP1;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55686FA6;
+Reference = C3;
+ValeurCmp = CP1;
+IdModule  = CP4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55686723;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /556868F7;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5568690C;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55686920;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5568674C;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /556868FD;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55686912;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55686926;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /556865C4;
+Reference = U1;
+ValeurCmp = ARDUINO_MINI;
+IdModule  = DIL20;
+EndCmp
+
+BeginCmp
+TimeStamp = /556867CB;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = 3PIN_6mm;
+EndCmp
+
+EndListe
