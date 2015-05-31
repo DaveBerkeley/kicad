@@ -1,7 +1,11 @@
 #!/bin/bash
 
-NAME=optical_mouse
+NAME=$(basename $(pwd))
 DST=/tmp/gerber
+EXT="*.gbl *.gbs *.gbo *.gbr *.gtl *.gts *.gto *.drl"
+
+mkdir -p ${DST}
+rm -f ${DST}/*
 
 cp ${NAME}-B_Cu.gbl ${DST}
 cp ${NAME}-B_Mask.gbs ${DST}
@@ -13,8 +17,6 @@ cp ${NAME}-F_SilkS.gto ${DST}
 cp ${NAME}.drl ${DST}
 
 cd ${DST}
-rm ${NAME}.zip
-zip ${NAME}.zip *.gbl *.gbs *.gbo *.gbr *.gtl *.gts *.gto *.drl
-
+zip -r ${NAME}.zip ${EXT}
 
 # FIN
