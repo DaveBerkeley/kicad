@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 31 May 2015 07:12:49 BST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 31 May 2015 11:26:22 BST
 
 BeginCmp
 TimeStamp = /55686C9F;
 Reference = ??1;
 ValeurCmp = ANDS-2610;
-IdModule  = adns-2610-DIP-8;
+IdModule  = adns-2610-DIP-8_(GORA);
 EndCmp
 
 BeginCmp
