@@ -1,5 +1,5 @@
-update=Sun 31 May 2015 12:09:11 BST
-last_client=pcbnew
+update=Sun 31 May 2015 20:26:44 BST
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=
@@ -43,11 +43,6 @@ LibName31=/home/dave/Desktop/git/kicad/lib/adns-2610
 LibName32=/home/dave/Desktop/git/kicad/lib/Resonator_3pins
 LibName33=/home/dave/Desktop/git/kicad/lib/arduino
 LibName34=/home/dave/Desktop/git/kicad/lib/murata-resonators
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=optical_mouse.net
@@ -68,7 +63,6 @@ DrawSegmentWidth="    0.200000"
 BoardOutlineThickness="    0.100000"
 ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -89,4 +83,9 @@ LibName17=/home/dave/Desktop/git/kicad/lib/adns-2610
 LibName18=/home/dave/Desktop/git/kicad/lib/arduino
 LibName19=/home/dave/Desktop/git/kicad/lib/SMD-RFM12B
 LibName20=/home/dave/Desktop/git/kicad/lib/murata-resonators
-LibName21=/home/user/Desktop/git/kicad/lib/holes
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
