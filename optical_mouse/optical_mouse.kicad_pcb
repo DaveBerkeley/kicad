@@ -3,9 +3,9 @@
   (general
     (links 26)
     (no_connects 0)
-    (area 158.378034 145.605499 199.710674 189.674501)
+    (area 157.429999 144.729999 201.980001 190.550001)
     (thickness 1.6)
-    (drawings 3)
+    (drawings 7)
     (tracks 98)
     (zones 0)
     (modules 14)
@@ -717,6 +717,10 @@
     )
   )
 
+  (gr_line (start 157.48 190.5) (end 157.48 144.78) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 201.93 190.5) (end 157.48 190.5) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 201.93 144.78) (end 201.93 190.5) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 157.48 144.78) (end 201.93 144.78) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_circle (center 186.0042 166.9542) (end 186.2582 167.1066) (layer B.SilkS) (width 0.2))
   (gr_circle (center 186.0296 166.9542) (end 188.1886 168.8084) (layer B.SilkS) (width 0.2))
   (gr_text "OptiMouseCam v 1.0 (C) Dave Berkeley 2015" (at 176.53 187.96) (layer B.SilkS)
