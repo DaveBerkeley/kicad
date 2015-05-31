@@ -1,11 +1,24 @@
-update=Fri 29 May 2015 17:38:12 BST
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+update=Sun 31 May 2015 07:12:00 BST
+last_client=cvpcb
 [pcbnew]
+version=1
+LastNetListRead=optical_mouse.net
+UseCmpFile=1
+PadDrill="    0.600000"
+PadDrillOvalY="    0.600000"
+PadSizeH="    1.500000"
+PadSizeV="    1.500000"
+PcbTextSizeV="    1.500000"
+PcbTextSizeH="    1.500000"
+PcbTextThickness="    0.300000"
+ModuleTextSizeV="    1.000000"
+ModuleTextSizeH="    1.000000"
+ModuleTextSizeThickness="    0.150000"
+SolderMaskClearance="    0.000000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.200000"
+BoardOutlineThickness="    0.100000"
+ModuleOutlineThickness="    0.150000"
 [pcbnew/libraries]
 LibName1=sockets
 LibName2=connect
@@ -23,6 +36,10 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=/home/dave/Desktop/git/kicad/lib/adns-2610
+LibName18=/home/dave/Desktop/git/kicad/lib/arduino
+LibName19=/home/dave/Desktop/git/kicad/lib/SMD-RFM12B
+LibName20=/home/dave/Desktop/git/kicad/lib/murata-resonators
 LibDir=
 [eeschema]
 version=1
@@ -66,3 +83,9 @@ LibName30=valves
 LibName31=/home/dave/Desktop/git/kicad/lib/adns-2610
 LibName32=/home/dave/Desktop/git/kicad/lib/Resonator_3pins
 LibName33=/home/dave/Desktop/git/kicad/lib/arduino
+LibName34=/home/dave/Desktop/git/kicad/lib/murata-resonators
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

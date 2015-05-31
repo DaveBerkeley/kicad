@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Fri 29 May 2015 17:04:24 BST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Sun 31 May 2015 07:12:49 BST
 
 BeginCmp
 TimeStamp = /55686C9F;
 Reference = ??1;
 ValeurCmp = ANDS-2610;
-IdModule  = ;
+IdModule  = adns-2610-DIP-8;
 EndCmp
 
 BeginCmp
@@ -57,45 +57,45 @@ IdModule  = LED-5MM;
 EndCmp
 
 BeginCmp
+TimeStamp = /556AA4EB;
+Reference = Q1;
+ValeurCmp = CSTLS_G;
+IdModule  = murata-resonators-CSTLS_G8;
+EndCmp
+
+BeginCmp
 TimeStamp = /5568674C;
 Reference = R1;
 ValeurCmp = R;
-IdModule  = R3-5;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /556868FD;
 Reference = R2;
 ValeurCmp = R;
-IdModule  = R3-5;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /55686912;
 Reference = R3;
 ValeurCmp = R;
-IdModule  = R3-5;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /55686926;
 Reference = R4;
 ValeurCmp = R;
-IdModule  = R3-5;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /556865C4;
 Reference = U1;
 ValeurCmp = ARDUINO_MINI;
-IdModule  = DIL20;
-EndCmp
-
-BeginCmp
-TimeStamp = /556867CB;
-Reference = X1;
-ValeurCmp = CRYSTAL;
-IdModule  = 3PIN_6mm;
+IdModule  = arduino_mini;
 EndCmp
 
 EndListe
