@@ -36,11 +36,52 @@ for line in f:
         continue
     if tool in lut.keys():
         if tool != last_tool:
-            print tool, lut[tool]
+            #print tool, lut[tool]
             last_tool = tool
         m = hole_re.match(line)
         x, y = m.groups()
         x, y = [ int(a) for a in [ x, y ] ]
-        print x, y
+        print "drill", lut[tool], x, y
+
+#
+#
+
+path = "optical_mouse-Edge_Cuts.gbr"
+
+f = file(path)
+
+edge_re = re.compile("X(-?\d+)Y(-?\d+)D(\d+)(.*)")
+
+class MinMax:
+    def __init__(self):
+        self.minx = None
+        self.maxx = None
+    def add(self, x):
+        if self.minx is None:
+            self.minx = x
+        else:
+            if self.minx > x:
+                self.minx = x
+        if self.maxx is None:
+            self.maxx = x
+        else:
+            if self.maxx < x:
+                self.maxx = x
+    def get(self):
+        return self.minx, self.maxx
+
+xx, yy = MinMax(), MinMax()
+
+for line in f:
+    line = line.strip()
+    m = edge_re.match(line)
+    if m:
+        x, y, _, _ = m.groups()
+        x, y = [ int(a)  for a in [ x, y ] ]
+        xx.add(x)
+        yy.add(y)
+
+print "board edges", xx.get(), yy.get()
+
 
 # FIN
