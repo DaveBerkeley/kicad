@@ -132,7 +132,7 @@
     (add_net N-000009)
   )
 
-  (module murata-resonators-CSTLS_G8 (layer F.Cu) (tedit 556B1896) (tstamp 556AF32D)
+  (module murata-resonators-CSTLS_G8 (layer F.Cu) (tedit 556B18AE) (tstamp 556AF32D)
     (at 167.64 124.46 90)
     (descr "CSTGL_S 8X3 MM, GRID 2.5 MM")
     (tags "CSTGL_S 8X3 MM, GRID 2.5 MM")
