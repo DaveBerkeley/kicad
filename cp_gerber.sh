@@ -6,6 +6,7 @@ EXT="*.gbl *.gbs *.gbo *.gbr *.gtl *.gts *.gto *.drl"
 
 mkdir -p ${DST}
 rm -f ${DST}/*
+UNIQUE=$(date +%Y%m%d%H%M)
 
 cp ${NAME}-B_Cu.gbl ${DST}
 cp ${NAME}-B_Mask.gbs ${DST}
@@ -17,6 +18,6 @@ cp ${NAME}-F_SilkS.gto ${DST}
 cp ${NAME}.drl ${DST}
 
 cd ${DST}
-zip -r ${NAME}.zip ${EXT}
+zip -r ${NAME}_${UNIQUE}.zip ${EXT}
 
 # FIN
