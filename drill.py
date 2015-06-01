@@ -1,6 +1,10 @@
 #!/usr/bin/python
 
+import optparse
 import re
+
+#
+#
 
 class MinMax:
     def __init__(self):
@@ -48,7 +52,7 @@ def read_drill(path, tools):
             continue
 
         tool, size = m.groups()
-        if size in tools:
+        if (not tools) or (size in tools):
             lut[tool] = size
 
     tool = None
@@ -115,22 +119,30 @@ def read_edge(path):
 #
 #
 
-path = "optical_mouse.drl"
-tools = [ "6.000", "3.048" ]
+if __name__ == "__main__":
 
-holes = read_drill(path, tools)
 
-path = "optical_mouse-Edge_Cuts.gbr"
+    p = optparse.OptionParser()
+    p.add_option("-n", "--name", dest="name", default="optical_mouse")
+    p.add_option("-t", "--tool", dest="tool", action="append")
+    opts, args = p.parse_args()
+    print opts, args
 
-x0, x1, y0, y1 = read_edge(path)
+    tools = opts.tool
 
-def norm(x, y):
-    return x - x0, y - y0
+    path = opts.name + ".drl"
+    holes = read_drill(path, tools)
 
-print "board", x1 - x0, y1 - y0
+    path = opts.name + "-Edge_Cuts.gbr"
+    x0, x1, y0, y1 = read_edge(path)
 
-for dia, x, y in holes:
-    x, y = norm(x, y)
-    print "hole", dia, x, y
+    def norm(x, y):
+        return x - x0, y - y0
+
+    print "board", x1 - x0, y1 - y0
+
+    for dia, x, y in holes:
+        x, y = norm(x, y)
+        print "hole", dia, x, y
 
 # FIN
