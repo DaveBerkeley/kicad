@@ -1,6 +1,6 @@
-update=Mon 13 Jul 2015 14:01:11 BST
+update=Mon 13 Jul 2015 14:12:41 BST
 version=1
-last_client=eeschema
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -39,14 +39,10 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=/home/user/Desktop/git/kicad/lib/SMD-RFM12B
 LibName18=/home/user/Desktop/git/kicad/lib/arduino
+LibName19=/home/user/Desktop/git/kicad/lib/murata-resonators
 LibDir=
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -88,3 +84,8 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/user/Desktop/git/kicad/lib/rfm12b
 LibName32=/home/user/Desktop/git/kicad/lib/murata-resonators
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
