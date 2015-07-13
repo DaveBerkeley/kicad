@@ -1,4 +1,4 @@
-update=Mon 13 Jul 2015 11:01:01 BST
+update=Mon 13 Jul 2015 11:49:13 BST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -85,3 +85,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/home/user/Desktop/git/kicad/lib/rfm12b
+LibName32=/home/user/Desktop/git/kicad/lib/murata-resonators
