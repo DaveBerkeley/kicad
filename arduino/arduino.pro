@@ -1,6 +1,6 @@
-update=Mon 13 Jul 2015 13:29:02 BST
+update=Mon 13 Jul 2015 14:01:11 BST
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -42,10 +42,15 @@ LibName18=/home/user/Desktop/git/kicad/lib/arduino
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -83,8 +88,3 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/user/Desktop/git/kicad/lib/rfm12b
 LibName32=/home/user/Desktop/git/kicad/lib/murata-resonators
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
