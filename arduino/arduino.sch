@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "13 jul 2015"
+Date "14 jul 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -104,13 +104,13 @@ $EndComp
 $Comp
 L R R1
 U 1 1 55A3972A
-P 4800 1350
-F 0 "R1" V 4880 1350 40  0000 C CNN
-F 1 "10k" V 4807 1351 40  0000 C CNN
-F 2 "~" V 4730 1350 30  0000 C CNN
-F 3 "~" H 4800 1350 30  0000 C CNN
-	1    4800 1350
-	1    0    0    -1  
+P 5050 2450
+F 0 "R1" V 5130 2450 40  0000 C CNN
+F 1 "10k" V 5057 2451 40  0000 C CNN
+F 2 "~" V 4980 2450 30  0000 C CNN
+F 3 "~" H 5050 2450 30  0000 C CNN
+	1    5050 2450
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3800 1750 6850 1750
@@ -158,13 +158,13 @@ Wire Wire Line
 $Comp
 L VCC #PWR04
 U 1 1 55A39778
-P 4800 950
-F 0 "#PWR04" H 4800 1050 30  0001 C CNN
-F 1 "VCC" H 4800 1050 30  0000 C CNN
-F 2 "" H 4800 950 60  0000 C CNN
-F 3 "" H 4800 950 60  0000 C CNN
-	1    4800 950 
-	1    0    0    -1  
+P 5450 2450
+F 0 "#PWR04" H 5450 2550 30  0001 C CNN
+F 1 "VCC" H 5450 2550 30  0000 C CNN
+F 2 "" H 5450 2450 60  0000 C CNN
+F 3 "" H 5450 2450 60  0000 C CNN
+	1    5450 2450
+	0    1    1    0   
 $EndComp
 $Comp
 L CSTLS_X Q1
@@ -177,12 +177,6 @@ F 3 "" H 4200 1500 60  0000 C CNN
 	1    4200 1500
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4800 950  4800 1100
-Wire Wire Line
-	4800 1600 4650 1600
-Wire Wire Line
-	4650 1600 4650 3100
 $Comp
 L GND #PWR05
 U 1 1 55A398C6
@@ -676,5 +670,23 @@ Wire Wire Line
 	4950 1400 4950 1000
 Wire Wire Line
 	4950 1000 4800 1000
-Connection ~ 4800 1000
+Wire Wire Line
+	4800 2450 4650 2450
+Wire Wire Line
+	5300 2450 5450 2450
+Wire Wire Line
+	4650 2450 4650 3100
+$Comp
+L VCC #PWR?
+U 1 1 55A5274D
+P 4800 950
+F 0 "#PWR?" H 4800 1050 30  0001 C CNN
+F 1 "VCC" H 4800 1050 30  0000 C CNN
+F 2 "" H 4800 950 60  0000 C CNN
+F 3 "" H 4800 950 60  0000 C CNN
+	1    4800 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1000 4800 950 
 $EndSCHEMATC
