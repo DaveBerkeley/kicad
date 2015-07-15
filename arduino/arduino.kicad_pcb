@@ -676,12 +676,12 @@
     )
   )
 
-  (module PIN_ARRAY-6X1 (layer F.Cu) (tedit 55A5756E) (tstamp 55A3CCF9)
+  (module PIN_ARRAY-6X1 (layer F.Cu) (tedit 55A61F18) (tstamp 55A3CCF9)
     (at 81.28 139.7)
     (descr "Connecteur 6 pins")
     (tags "CONN DEV")
     (path /55A3A7C3)
-    (fp_text reference P1 (at -8.89 0) (layer F.SilkS)
+    (fp_text reference P1 (at 8.89 0) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value CONN_6 (at 0 2.159) (layer F.SilkS) hide
@@ -723,12 +723,12 @@
     )
   )
 
-  (module PIN_ARRAY-6X1 (layer F.Cu) (tedit 55A5756B) (tstamp 55A3CD2C)
+  (module PIN_ARRAY-6X1 (layer F.Cu) (tedit 55A61F1B) (tstamp 55A3CD2C)
     (at 81.28 144.78)
     (descr "Connecteur 6 pins")
     (tags "CONN DEV")
     (path /55A3A7D2)
-    (fp_text reference P2 (at -8.89 0) (layer F.SilkS)
+    (fp_text reference P2 (at 8.89 0) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value CONN_6 (at 0 2.159) (layer F.SilkS) hide

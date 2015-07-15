@@ -4,7 +4,7 @@
 (define-layer! 5 (cons 'filename "arduino-F_SilkS.gto")(cons 'visible #t)(cons 'color #(65127 63187 64008)))
 (define-layer! 4 (cons 'filename "arduino-F_Mask.gts")(cons 'visible #t)(cons 'color #(54741 65021 13107)))
 (define-layer! 3 (cons 'filename "arduino-Edge_Cuts.gbr")(cons 'visible #t)(cons 'color #(64648 64190 64244)))
-(define-layer! 2 (cons 'filename "arduino-B_SilkS.gbo")(cons 'visible #f)(cons 'color #(49601 0 57568)))
+(define-layer! 2 (cons 'filename "arduino-B_SilkS.gbo")(cons 'visible #t)(cons 'color #(50227 47537 50659)))
 (define-layer! 1 (cons 'filename "arduino-B_Mask.gbs")(cons 'visible #f)(cons 'color #(65535 32639 29555)))
 (define-layer! 0 (cons 'filename "arduino.drl")(cons 'visible #t)(cons 'color #(0 0 0))(cons 'attribs (list (list 'autodetect 'Boolean 1) (list 'zero_supression 'Enum 1) (list 'units 'Enum 1) (list 'digits 'Integer 3))))
 (define-layer! -1 (cons 'filename "/home/dave/Desktop/git/kicad/arduino")(cons 'visible #f)(cons 'color #(0 0 0)))
