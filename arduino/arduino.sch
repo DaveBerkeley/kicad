@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "14 jul 2015"
+Date "15 jul 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -112,10 +112,6 @@ F 3 "~" H 5050 2450 30  0000 C CNN
 	1    5050 2450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3800 1750 6850 1750
-Wire Wire Line
-	6850 1750 6850 2700
 Wire Wire Line
 	6850 2700 6450 2700
 Wire Wire Line
@@ -610,10 +606,6 @@ $EndComp
 Wire Wire Line
 	3800 1650 5000 1650
 Wire Wire Line
-	5050 1850 3800 1850
-Wire Wire Line
-	5050 1000 5050 1850
-Wire Wire Line
 	3800 3850 3850 3850
 Wire Wire Line
 	3850 3850 3850 2700
@@ -706,4 +698,12 @@ Connection ~ 2450 4300
 Wire Wire Line
 	2250 4650 2250 4800
 Connection ~ 2450 4800
+Wire Wire Line
+	3800 1750 5050 1750
+Wire Wire Line
+	5050 1750 5050 1000
+Wire Wire Line
+	3800 1850 6850 1850
+Wire Wire Line
+	6850 1850 6850 2700
 $EndSCHEMATC

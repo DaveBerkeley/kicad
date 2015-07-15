@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Tue 14 Jul 2015 21:31:20 BST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Wed 15 Jul 2015 11:27:20 BST
 
 BeginCmp
 TimeStamp = /55A39B50;
@@ -80,7 +80,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55A57212;
 Reference = P7;
-ValeurCmp = CONN_2;
+ValeurCmp = battery;
 IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
